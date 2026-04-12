@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Br0ski777/solana-fees",
+  "title": "Solana Priority Fee Estimator API",
+  "description": "Solana priority fees at 6 levels, cost in SOL/USD, congestion. x402.",
+  "version": "1.0.0",
+  "websiteUrl": "https://github.com/Br0ski777/solana-fees-x402",
+  "repository": {
+    "url": "https://github.com/Br0ski777/solana-fees-x402",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "sse",
+      "url": "https://solana-fees-x402-production.up.railway.app/mcp"
+    }
+  ]
+}

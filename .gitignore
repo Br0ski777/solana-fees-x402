@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+.env.*
+*.log
+bun.lockb
+.mcpregistry_registry_token
+.mcpregistry_github_token
