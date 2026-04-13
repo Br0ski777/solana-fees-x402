@@ -37,6 +37,52 @@ Do NOT use for EVM gas -- use gas_get_current_price. Do NOT use for swap quotes 
           },
         },
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "chain": {
+              "type": "string",
+              "description": "Chain (solana)"
+            },
+            "priorityFees": {
+              "type": "object",
+              "properties": {
+                "min": {
+                  "type": "number"
+                },
+                "low": {
+                  "type": "number"
+                },
+                "medium": {
+                  "type": "number"
+                },
+                "high": {
+                  "type": "number"
+                },
+                "veryHigh": {
+                  "type": "number"
+                },
+                "max": {
+                  "type": "number"
+                }
+              },
+              "description": "Priority fee levels in microLamports"
+            },
+            "baseFee": {
+              "type": "number",
+              "description": "Base fee in lamports"
+            },
+            "recentSlot": {
+              "type": "number"
+            },
+            "timestamp": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "priorityFees"
+          ]
+        },
     },
   ],
 };
