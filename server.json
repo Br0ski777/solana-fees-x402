@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "sse",
-      "url": "https://solana-fees-x402-production.up.railway.app/mcp"
+      "url": "https://solana-fees.api.klymax402.com/mcp"
     }
   ]
 }
