@@ -3,7 +3,7 @@
   "name": "io.github.Br0ski777/solana-fees",
   "title": "Solana Priority Fee Estimator API",
   "description": "Solana priority fees at 6 levels, cost in SOL/USD, congestion. x402.",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "websiteUrl": "https://github.com/Br0ski777/solana-fees-x402",
   "repository": {
     "url": "https://github.com/Br0ski777/solana-fees-x402",
