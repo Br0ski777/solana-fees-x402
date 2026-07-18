@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "GET",
       path: "/api/fees",
-      price: "$0.001",
+      price: "$0.003",
       description: "Priority fee estimates for Solana transactions",
       toolName: "solana_get_priority_fees",
       toolDescription: `Use this when you need priority fee estimates before sending a Solana transaction. Returns recommended compute unit prices at 6 levels based on recent network activity.
