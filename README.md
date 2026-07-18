@@ -35,7 +35,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `solana_get_priority_fees` | GET | `/api/fees` | $0.001 | Priority fee estimates for Solana transactions |
+| `solana_get_priority_fees` | GET | `/api/fees` | $0.003 | Priority fee estimates for Solana transactions |
 
 ### `solana_get_priority_fees`
 
